@@ -33,10 +33,10 @@ const db   = getFirestore(app);
 ============================ */
 (function () {
   const IMAGES = [
-    "fotos/login/fotoA.jpeg","fotos/login/fotoB.jpeg","fotos/login/fotoC.jpeg",
-    "fotos/login/fotoD.jpeg","fotos/login/fotoE.jpeg","fotos/login/fotoF.jpeg",
-    "fotos/login/fotoG.jpeg","fotos/login/fotoH.jpeg","fotos/login/fotoI.jpeg",
-    "fotos/login/fotoJ.jpeg","fotos/login/fotoK.jpeg","fotos/login/fotoL.jpeg"
+    "fotos/login/FotoA.jpeg","fotos/login/FotoB.jpeg","fotos/login/FotoC.jpeg",
+    "fotos/login/FotoD.jpeg","fotos/login/FotoE.jpeg","fotos/login/FotoF.jpeg",
+    "fotos/login/FotoG.jpeg","fotos/login/FotoH.jpeg","fotos/login/FotoI.jpeg",
+    "fotos/login/fotoJ.jpeg","fotos/login/fotoK.jpeg","fotos/login/FotoL.jpeg"
   ];
 
   const cont = document.getElementById('loginCollage');
