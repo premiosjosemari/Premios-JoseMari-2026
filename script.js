@@ -4091,94 +4091,57 @@ construirSalaMuseo(2025);
 
 
   /* ==========================================
-     EASTER EGG 3 — ALTERNATIVA MÓVIL
-     PULSACIÓN LARGA EN EL CONTADOR
-  ========================================== */
+   EASTER EGG 3 — ALTERNATIVA MÓVIL
+   Mantener pulsado el contador 2 segundos
+========================================== */
 
-  if (contador) {
+if (contador) {
 
-    let pulsacionLarga;
-    let fuePulsacionLarga = false;
+  let pulsacionLarga;
 
+  const activarModoJosemari = () => {
 
-    const activarModoJosemari = () => {
+    encontrarEasterEgg(
+      "codigo-josemari",
+      "Código Josemari activado"
+    );
 
-      fuePulsacionLarga = true;
+    document.body.classList.add(
+      "modo-josemari-secreto"
+    );
 
-      encontrarEasterEgg(
-        "codigo-josemari",
-        "Código Josemari activado"
-      );
-
-      document.body.classList.add(
+    setTimeout(() => {
+      document.body.classList.remove(
         "modo-josemari-secreto"
       );
+    }, 5000);
 
-      setTimeout(() => {
+  };
 
-        document.body.classList.remove(
-          "modo-josemari-secreto"
-        );
+  contador.addEventListener("touchstart", (e) => {
+    e.preventDefault();
 
-      }, 5000);
+    clearTimeout(pulsacionLarga);
 
-    };
+    pulsacionLarga = setTimeout(() => {
+      activarModoJosemari();
+    }, 2000);
 
+  }, { passive: false });
 
-    contador.addEventListener(
-      "pointerdown",
-      () => {
+  contador.addEventListener("touchend", () => {
+    clearTimeout(pulsacionLarga);
+  });
 
-        fuePulsacionLarga = false;
+  contador.addEventListener("touchcancel", () => {
+    clearTimeout(pulsacionLarga);
+  });
 
-        pulsacionLarga =
-          setTimeout(() => {
+  contador.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+  });
 
-            activarModoJosemari();
-
-          }, 2000);
-
-      }
-    );
-
-
-    contador.addEventListener(
-      "pointerup",
-      () => {
-
-        clearTimeout(
-          pulsacionLarga
-        );
-
-      }
-    );
-
-
-    contador.addEventListener(
-      "pointerleave",
-      () => {
-
-        clearTimeout(
-          pulsacionLarga
-        );
-
-      }
-    );
-
-
-    contador.addEventListener(
-      "pointercancel",
-      () => {
-
-        clearTimeout(
-          pulsacionLarga
-        );
-
-      }
-    );
-
-  }
-
+}
 
   /* ==========================================
      EASTER EGG 4 — PINGÜINOS
