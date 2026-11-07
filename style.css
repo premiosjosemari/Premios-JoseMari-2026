@@ -6030,6 +6030,10 @@ body {
   top: 110px;
   z-index: 9999;
 
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
   padding: 8px 12px;
 
   color: #dff8ff;
