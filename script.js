@@ -178,7 +178,7 @@ function controlarAccesoResultados() {
 
 // Cambiar a true cuando se abran las secciones.
 const CATEGORIAS_ABIERTAS = true;
-const NOMINACIONES_ABIERTAS = false;
+const NOMINACIONES_ABIERTAS = true;
 const VOTACIONES_ABIERTAS = false;
 
 // Nombres exactos del login.
@@ -1293,6 +1293,8 @@ document.getElementById("enviarVotacion")?.addEventListener("click", async () =>
 
 
 const CATEGORIAS_TODOS = [
+  "Viajero del año",
+  "Llorón del año"
   
 ];
 
@@ -1303,6 +1305,55 @@ const CATEGORIAS_TODOS = [
 ======================================================= */
 
 const NOMINADOS_ESPECIALES = {
+
+  "Mejor jugador de pádel del año": [
+    { nombre: "Asieras",       foto: "fotos/asieras.jpeg" },
+    { nombre: "Darawayas",     foto: "fotos/dario.jpeg" },
+    { nombre: "Ivanpechotes",  foto: "fotos/ivanp.jpeg" },
+    { nombre: "Lusilu",        foto: "fotos/Lucia.jpeg" },
+    { nombre: "Toñaco",        foto: "fotos/marco.jpeg" },
+    { nombre: "Manolo",        foto: "fotos/manu.jpeg" },
+    { nombre: "Kastor",        foto: "fotos/mario.jpeg" },
+    { nombre: "Gamepro",       foto: "fotos/gamepro.jpeg" },
+    { nombre: "El Enano",      foto: "fotos/fervico.jpeg" },
+    { nombre: "Poru",          foto: "fotos/Poru.jpeg" },
+    { nombre: "Ikardo",        foto: "fotos/iker.jpeg" },
+    { nombre: "Lab El Viejo",  foto: "fotos/labrada.jpeg" }
+  ],
+
+  "Peor Playus del año": [
+    { nombre: "Asieras",      foto: "fotos/asieras.jpeg" },
+    { nombre: "Rulillas",     foto: "fotos/rulillas.jpeg" },
+    { nombre: "Darawayas",    foto: "fotos/dario.jpeg" },
+    { nombre: "Lusilu",       foto: "fotos/Lucia.jpeg" },
+    { nombre: "Almansa",      foto: "fotos/ines.jpeg" },
+    { nombre: "Toñaco",       foto: "fotos/marco.jpeg" },
+    { nombre: "Manolo",       foto: "fotos/manu.jpeg" },
+    { nombre: "Kastor",       foto: "fotos/mario.jpeg" },
+    { nombre: "Gamepro",      foto: "fotos/gamepro.jpeg" },
+    { nombre: "El Enano",     foto: "fotos/fervico.jpeg" },
+    { nombre: "Poru",         foto: "fotos/Poru.jpeg" },
+    { nombre: "Lab El Viejo", foto: "fotos/labrada.jpeg" }
+  ],
+
+  "Correa del Año": [
+    { nombre: "Hugo y el Popeyes", foto: "fotos/correa/hugo.png" },
+    { nombre: "Dani y el Ejército", foto: "fotos/correa/dani.png" },
+    { nombre: "Labrada y el TFG", foto: "fotos/correa/labrada.png" },
+    { nombre: "Marco y los/as enfermeros/as", foto: "fotos/correa/marco.png" },
+    { nombre: "Fer y Spiderman", foto: "fotos/correa/fer.png" },
+    { nombre: "Ines y caminos", foto: "fotos/correa/ines.png" },
+    { nombre: "Rulas y la Semana Santa", foto: "fotos/correa/rulas.png" },
+    { nombre: "Manu y los estudios", foto: "fotos/correa/manu.png" },
+    { nombre: "Dario y los quesitos", foto: "fotos/correa/dario.png" },
+    { nombre: "Poru y el token de Fortnite", foto: "fotos/correa/poru.png" },
+    { nombre: "Lucia y el GYM", foto: "fotos/correa/lucia.png" },
+    { nombre: "Ivanpe y el Barsa", foto: "fotos/correa/ivanpe.png" },
+    { nombre: "Maria y las de su uni", foto: "fotos/correa/maria.png" },
+    { nombre: "Asier y Tomelloso", foto: "fotos/correa/asier.png" },
+    { nombre: "Iker y hablar con tias en una fiesta", foto: "fotos/correa/iker.png" },
+    { nombre: "Mario y el deporte", foto: "fotos/correa/mario.png" }
+  ],
 
   
 
@@ -1445,7 +1496,9 @@ if (
   });
 
   div.appendChild(btn);
-}
+
+  }
+});
 
   /* 4) Activar vídeos dentro de esas tarjetas */
   wireLightboxForVideos(contenedor);
@@ -1472,7 +1525,6 @@ if (
     });
   });
 
-});
 
 }
 
