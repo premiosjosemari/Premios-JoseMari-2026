@@ -1294,7 +1294,10 @@ document.getElementById("enviarVotacion")?.addEventListener("click", async () =>
 
 const CATEGORIAS_TODOS = [
   "Viajero del año",
-  "Llorón del año"
+  "Llorón del año",
+  "Fiestero del año",
+  "Picado del año",
+  "Princeso del año"
   
 ];
 
@@ -1353,6 +1356,32 @@ const NOMINADOS_ESPECIALES = {
     { nombre: "Asier y Tomelloso", foto: "fotos/correa/asier.png" },
     { nombre: "Iker y hablar con tias en una fiesta", foto: "fotos/correa/iker.png" },
     { nombre: "Mario y el deporte", foto: "fotos/correa/mario.png" }
+  ],
+
+  "Absolute Cinema del Año": [
+    { nombre: "Absolute Battles", foto: "fotos/absolute cinema/batallas.jpeg" },
+    { nombre: "Absolute Carloja", foto: "fotos/absolute cinema/carloja.jpeg" },
+    { nombre: "Absolute Poyoco", foto: "fotos/absolute cinema/marco.jpeg" },
+    { nombre: "Absolute Senil", foto: "fotos/absolute cinema/labrada.jpeg" },
+    { nombre: "Absolute Rulas", foto: "fotos/absolute cinema/rulas.jpeg" },
+    { nombre: "Absolute Asier", foto: "fotos/absolute cinema/asier.jpeg" },
+    { nombre: "Absolute My Bad", foto: "fotos/absolute cinema/ivanpe.jpeg" },
+    { nombre: "Absolute Quegas", foto: "fotos/absolute cinema/poru.jpeg" },
+    { nombre: "Absolute Iceman", foto: "fotos/absolute cinema/iceman.jpeg" },
+    { nombre: "Absolute Dali", foto: "fotos/absolute cinema/dali.jpeg" }
+  ],
+
+  "Borrachera del año": [
+    { nombre: "Abrazado al Retrete (Gamepro)", foto: "fotos/borrachera/hugo.jpeg" },
+    { nombre: "No Mas Tequila, Por Favor (Labrada)", foto: "fotos/borrachera/labrada.jpeg" },
+    { nombre: "La palmera Ropax (Poru)", foto: "fotos/borrachera/poru.jpeg" },
+    { nombre: "El Acosador Canario (Marco)", foto: "fotos/borrachera/marco.jpeg" },
+    { nombre: "Yo nunca gomito (Dario)", foto: "fotos/borrachera/dario.jpeg" },
+    { nombre: "Sin pantalones (Ivanpe)", foto: "fotos/borrachera/ivanpe.jpeg" },
+    { nombre: "Da igual cuando lo leas (Asier)", foto: "fotos/borrachera/asier.jpeg" },
+    { nombre: "Ronda de chupitos (Maria)", foto: "fotos/borrachera/maria.jpeg" },
+    { nombre: "Vomito detras de la casa (Fervico)", foto: "fotos/borrachera/fer.jpeg" },
+    { nombre: "Siempre voy borracho (Iker)", foto: "fotos/borrachera/iker.jpeg" }
   ],
 
   
@@ -1832,6 +1861,7 @@ const LOTES = [
 let LOTE_ACTIVO = null;
 
 async function sincronizarLoteActivo() {
+
 
   const snap = await getDocs(
     collection(db, "lotes_nominaciones_2026")
