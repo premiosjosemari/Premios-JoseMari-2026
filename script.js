@@ -1384,6 +1384,78 @@ const NOMINADOS_ESPECIALES = {
     { nombre: "Siempre voy borracho (Iker)", foto: "fotos/borrachera/iker.jpeg" }
   ],
 
+  "Huella Digital": [
+    { nombre: "Dani moderno", foto: "fotos/huella digital/dani.jpeg" },
+    { nombre: "Fer bollycao", foto: "fotos/huella digital/fer.jpeg" },
+    { nombre: "DJ Rulas", foto: "fotos/huella digital/rulas.jpeg" },
+    { nombre: "Vecchia Signora", foto: "fotos/huella digital/marco.jpeg" },
+    { nombre: "Premios 2k16", foto: "fotos/huella digital/asieryrulas.jpeg" },
+    { nombre: "Feliz Navidad", foto: "fotos/huella digital/mario.jpeg" },
+    { nombre: "Hugo antes del Sexo", foto: "fotos/huella digital/hugo.jpeg" },
+    { nombre: "Padre Nuestro Que Estas en los Cielos", foto: "fotos/huella digital/manu.jpeg" },
+    { nombre: "Darius", foto: "fotos/huella digital/dario.png" },
+    { nombre: "SR4", foto: "fotos/huella digital/SR4.png" },
+    { nombre: "Asier Abascal", foto: "fotos/huella digital/asier.jpeg" },
+    { nombre: "Disney +", foto: "fotos/huella digital/marioylab1.jpeg" },
+    { nombre: "Que es lo que tienes yo no se", video: "fotos/huella digital/marioylab2.mp4", poster: "fotos/huella digital/marioylab2.jpeg"},
+    { nombre: "Ivanp Navideño", foto: "fotos/huella digital/ivanpe.jpeg" },
+
+  ],
+
+  "Mensaje del año": [
+    { nombre: "Conversación de abuelas (Poru y Asier)", foto: "fotos/mensaje/asieryporu.jpeg" },
+    { nombre: "Fernando charcutero (Dani)", foto: "fotos/mensaje/dani.jpeg" },
+    { nombre: "Mr. Quejas (Poru)", foto: "fotos/mensaje/poru.jpeg"  },
+    { nombre: "Desayuno o merienda (Gamepro)", foto: "fotos/mensaje/hugo.jpeg" },
+    { nombre: "Corto pero intenso (Lucia)", foto: "fotos/mensaje/lucia.jpeg"  },
+    { nombre: "TecladoPro (Dario y Gamepro)", foto: "fotos/mensaje/darioyhugo.jpeg" },
+    { nombre: "Vinicius Jr. (Asier)", foto: "fotos/mensaje/asier.jpeg" },
+    { nombre: "Labrada vs. Socios.Brand (Labrada)", foto: "fotos/mensaje/labrada.jpeg" },
+    { nombre: "Gordas y Panchas (Manu)", foto: "fotos/mensaje/manu.jpeg" },
+    { nombre: "FactouPro (Gamepro)", foto: "fotos/mensaje/hugo2.jpeg" }
+  ],
+
+  "Sticker del año": [
+    { nombre: "Poru Israelita", foto: "fotos/sticker/poru.jpeg" },
+    { nombre: "Dario Glasses", foto: "fotos/sticker/dario.jpeg" },
+    { nombre: "Roman", foto: "fotos/sticker/roman.jpeg" },
+    { nombre: "Zipi Zape", foto: "fotos/sticker/hugo.jpeg" },
+    { nombre: "Fer free compresas", foto: "fotos/sticker/fer.jpeg" },
+    { nombre: "67 tun tun tun tun sahur", foto: "fotos/sticker/tuntun.jpeg" },
+    { nombre: "Pereira Franquista", foto: "fotos/sticker/pereira.jpeg" },
+    { nombre: "No Mas Tequila Por Favor", foto: "fotos/sticker/labrada.jpeg" },
+    { nombre: "Rulilas empalmado", foto: "fotos/sticker/rulas.jpeg" }
+  ],
+
+  "Outfit del año": [
+    { nombre: "Ivanpe Electricista", foto: "fotos/outfit/ivanpe.jpeg" },
+    { nombre: "Los Popeyeros", foto: "fotos/outfit/popeyes.jpeg" },
+    { nombre: "El Abuelo Paco", foto: "fotos/outfit/poru.jpeg" },
+    { nombre: "Dani Militar", foto: "fotos/outfit/dani.jpeg" },
+    { nombre: "Hugo tirantes de policía", foto: "fotos/outfit/hugo.jpeg" },
+    { nombre: "Fer encamisado", foto: "fotos/outfit/fer.jpeg" },
+    { nombre: "Mexicanos Lindos", foto: "fotos/outfit/mexico.jpeg" },
+    { nombre: "Cornudas", foto: "fotos/outfit/pibas.jpeg" },
+    { nombre: "El Pesao Argentino", foto: "fotos/outfit/iker.jpeg" },
+    { nombre: "Los Renos", foto: "fotos/outfit/daniylabrada.jpeg" }
+  ],
+
+  "Objeto del año": [
+    { nombre: "Manolo-Pinto (Alienigena)", foto: "fotos/objeto/manolo.jpeg" },
+    { nombre: "Mechero de Gamepro", foto: "fotos/objeto/mechero.jpeg" },
+    { nombre: "Bandera Italiana de Asier", foto: "fotos/objeto/italia.jpeg" },
+    { nombre: "Copa del Mundo Fake", foto: "fotos/objeto/mundial.jpeg" },
+    { nombre: "Mesa de Mezclas de DJ Sistema", foto: "fotos/objeto/mesa.jpeg" },
+    { nombre: "Balon de Canarias", foto: "fotos/objeto/balon.jpeg" },
+    { nombre: "Cartel de bebidas Proyecto Y", foto: "fotos/objeto/cartel.jpeg" },
+    { nombre: "Tiburón de Asier", foto: "fotos/objeto/tiburon.jpeg" },
+    { nombre: "Tequila Proyecto Y", foto: "fotos/objeto/tequila.jpeg" },
+    { nombre: "Cubo de Rubik de Fer (Robado por ...)", foto: "fotos/objeto/rubik.png" },
+    { nombre: "Cartel Obra Robado", foto: "fotos/objeto/señal.jpg" },
+    { nombre: "Pipas Piperos", foto: "fotos/objeto/pipas.jpeg" }
+
+  ],
+
   
 
 };
@@ -1861,6 +1933,7 @@ const LOTES = [
 let LOTE_ACTIVO = null;
 
 async function sincronizarLoteActivo() {
+
 
 
   const snap = await getDocs(
