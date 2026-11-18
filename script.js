@@ -1456,6 +1456,66 @@ const NOMINADOS_ESPECIALES = {
 
   ],
 
+  "Mejor personaje fuera de CT del año": [
+    { nombre: "Diego", foto: "fotos/perosnajes/diego.jpeg" },
+    { nombre: "Fermoriv", foto: "fotos/perosnajes/fermoriv.jpeg" },
+    { nombre: "Iceman", foto: "fotos/perosnajes/iceman.jpeg" },
+    { nombre: "Luisli", foto: "fotos/perosnajes/luisli.jpeg" },
+    { nombre: "Artupa", foto: "fotos/perosnajes/artupa.jpeg" },
+    { nombre: "Angel Madrid (Simba)", foto: "fotos/perosnajes/angel.jpeg" },
+    { nombre: "Carcapri", foto: "fotos/perosnajes/carcapri.jpeg" },
+    { nombre: "Carmen López", foto: "fotos/perosnajes/carmen.jpeg" },
+    { nombre: "Lucas Golderos", foto: "fotos/perosnajes/lucas.jpeg" },
+    { nombre: "Unai", foto: "fotos/perosnajes/unai.jpeg" },
+  ],
+
+  "Enemigo del año": [
+    { nombre: "DJ Sistema", foto: "fotos/perosnajes/djsistema.jpeg"  },
+    { nombre: "Roman", foto: "fotos/perosnajes/roman.jpeg" },
+    { nombre: "Yoryo", foto: "fotos/perosnajes/yoryo.jpeg" },
+    { nombre: "Adriyus", foto: "fotos/perosnajes/adriyus.jpeg" },
+    { nombre: "Celia Quintero", foto: "fotos/perosnajes/celia.jpeg" },
+    { nombre: "Roberms", foto: "fotos/perosnajes/roberms.jpeg" },
+    { nombre: "VictorZu", foto: "fotos/perosnajes/victorzu.jpeg" }
+  ],
+
+  "Palabra/Frase del año": [
+    { nombre: "Raskyperro", foto: "fotos/palabra/raskiperro.png" },
+    { nombre: "Imposible, Imposible", foto: "fotos/palabra/imposible.png" },
+    { nombre: "Mai Bat", foto: "fotos/palabra/mai.png" },
+    { nombre: "A ellos", foto: "fotos/palabra/ellos.png" },
+    { nombre: "Payo", foto: "fotos/palabra/payo.png" },
+    { nombre: "Mari Carmen", foto: "fotos/palabra/maricarmen.png" },
+    { nombre: "Charos", foto: "fotos/palabra/charos.png" },
+    { nombre: "Mis hijos", foto: "fotos/palabra/hijos.png" },
+    { nombre: "Diciembre en Cholas", foto: "fotos/palabra/diciembre.png" },
+    { nombre: "No me godas", foto: "fotos/palabra/godas.png" }
+  ],
+
+  "Mote del año": [
+    { nombre: "CachondoPro y PolloPro", foto: "fotos/mote/hugo.png" },
+    { nombre: "Topocho", foto: "fotos/mote/topocho.png" },
+    { nombre: "Mojadin", foto: "fotos/mote/mojadin.png" },
+    { nombre: "Simba", foto: "fotos/mote/simba.jpg" },
+    { nombre: "Manototo", foto: "fotos/mote/mano.jpg" },
+    { nombre: "Mr. Grey", foto: "fotos/mote/grey.png" },
+    { nombre: "Alva", foto: "fotos/mote/alva.png" },
+    { nombre: "Peruano", foto: "fotos/mote/peruano.png" },
+    { nombre: "Kustir", foto: "fotos/mote/kustir.png" },
+    { nombre: "DH4", foto: "fotos/mote/huijsen.png" },
+    { nombre: "Sushi", foto: "fotos/mote/sushi.jpg" }
+  ],
+
+  "Broma del año": [
+    { nombre: "Yinkana Camisetas Fer", foto: "fotos/broma/yinkana.jpeg" },
+    { nombre: "Cono a Javichu Vol. 3", foto: "fotos/broma/cono.jpeg" },
+    { nombre: "Compra Entradas Alvama Ice (Ropas)", foto: "fotos/broma/alvama.jpg" },
+    { nombre: "Tatoo Poru", foto: "fotos/broma/tatu.jpeg" },
+    { nombre: "Robada del cubo de Rubik de Fer", foto: "fotos/broma/fermoriv.png" },
+    { nombre: "Bajada pantalones Canarias", foto: "fotos/broma/pantalon.jpg" },
+    { nombre: "Carcapri al Campus Link con Rulas rayao", foto: "fotos/broma/carlosss.jpeg" }
+  ],
+
   
 
 };
