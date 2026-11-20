@@ -1516,6 +1516,71 @@ const NOMINADOS_ESPECIALES = {
     { nombre: "Carcapri al Campus Link con Rulas rayao", foto: "fotos/broma/carlosss.jpeg" }
   ],
 
+  "Fail del año": [
+    { nombre: "Choque Coche Asier-Ivanpe", foto: "fotos/fail/choque.jpeg" },
+    { nombre: "Pantalones rotos de Ivanpe", foto: "fotos/fail/pantalones.png" },
+    { nombre: "El intento de Casa Rural", foto: "fotos/fail/casa.png" },
+    { nombre: "Concurso de Burguers Fallido", foto: "fotos/fail/burguer.jpeg" },
+    { nombre: "Apuesta histórica (puta Paraguay)", foto: "fotos/fail/paraguay.jpeg" },
+    { nombre: "Guayadeque", foto: "fotos/fail/restaurante.jpg" },
+    { nombre: "CharcoPro en los karts", foto: "fotos/fail/charco.jpeg" }
+  ],
+
+  "Autistada del año": [
+    { nombre: "Regalos Fervi, Lab, Ivanp y Marioda", foto: "fotos/autistada/regalos.png" },
+    { nombre: "Tribu mierdoso de conductores", foto: "fotos/autistada/tribu.png" },
+    { nombre: "Rulas miedo a avión 2.0", foto: "fotos/autistada/rulas.png" },
+    { nombre: "DJ dario en Campo de Asier", foto: "fotos/autistada/dariodj.png" },
+    { nombre: "Asier viendo una peli en arena negra", foto: "fotos/autistada/asierpeli.png" },
+    { nombre: "Tik Tok Quevedo", video: "fotos/autistada/quevedo.mp4", poster: "fotos/autistada/quevedo.jpeg" },
+    { nombre: "Marco en Canarias", foto: "fotos/autistada/canarias.png" },
+    { nombre: "Asier y Dario con el gato", foto: "fotos/autistada/reyleon.png" },
+    { nombre: "Pellejos de Labruda", foto: "fotos/autistada/pellejos.png" }
+  ],
+
+  "Fiesta del año": [
+    { nombre: "Nochevieja", foto: "fotos/fiesta/nochevieja.jpeg" },
+    { nombre: "Carnavales", foto: "fotos/fiesta/carnaval.jpeg" },
+    { nombre: "Feria de Abril", foto: "fotos/fiesta/abril.jpeg"  },
+    { nombre: "Campus Link", foto: "fotos/fiesta/campus.jpeg"  },
+    { nombre: "Proyecto Y", foto: "fotos/fiesta/proyecto.jpeg"  },
+    { nombre: "Zurra", foto: "fotos/fiesta/zurra.jpeg"  },
+    { nombre: "Pandorga", foto: "fotos/fiesta/pandorga.jpeg"  },
+    { nombre: "Arena Negra", foto: "fotos/fiesta/arena.jpeg"  },
+    { nombre: "Ferias (foto feik)", foto: "fotos/fiesta/ferias.jpeg"  },
+    { nombre: "Piedrabuena (foto feik)", foto: "fotos/fiesta/piedrabuena.jpeg"  },
+    { nombre: "Halloween", foto: "fotos/fiesta/halloween.jpeg" }
+  ],
+
+  "Foto del año": [
+    { nombre: "IA", foto: "fotos/fotos/IA.jpeg" },
+    { nombre: "Qloo Durmiente", foto: "fotos/fotos/marco.jpeg" },
+    { nombre: "Asier Drogado", foto: "fotos/fotos/asier.jpeg" },
+    { nombre: "Primer baño del dia", foto: "fotos/fotos/baño.jpeg" },
+    { nombre: "Rulas Pig", foto: "fotos/fotos/pig.jpeg" },
+    { nombre: "Alien comiendose a Dario", foto: "fotos/fotos/alien.jpeg" },
+    { nombre: "Las lagrimas de Iker", foto: "fotos/fotos/iker.jpeg" },
+    { nombre: "Columnas", foto: "fotos/fotos/columna.jpeg" },
+    { nombre: "VergaYDura", foto: "fotos/fotos/vergaydura.jpeg" },
+    { nombre: "Pinguinos culeros", foto: "fotos/fotos/pinguinos.jpeg" },
+    { nombre: "Kastor borracho", foto: "fotos/fotos/kastorborracho.jpeg" }
+  ],
+
+  "Video del año": [
+    { nombre: "Vuelta Lesiva Canarias", video: "videos/cochecanarias.mp4", poster: "videos/posters/vuelta.jpeg" },
+    { nombre: "A! Asier felicidades! Me encanta!", video: "videos/jackie.mp4", poster: "videos/posters/jackie.jpeg" },
+    { nombre: "FilosofoPro", video: "videos/mujeres.mp4", poster: "videos/posters/filosofo.jpeg" },
+    { nombre: "Asier vs Pancha", video: "videos/pancha.mp4", poster: "videos/posters/pancha.jpeg" },
+    { nombre: "Minion culiando a Fer", video: "videos/minion.mp4", poster: "videos/posters/minion.jpeg" },
+    { nombre: "Instagram/Realidad", video: "videos/quijote.mp4", poster: "videos/posters/quijote.jpeg" },
+    { nombre: "Iker cantando a Artupa", video: "videos/ikercantando.mp4", poster: "videos/posters/cantar.jpeg" },
+    { nombre: "Nazis borrachos", video: "videos/nazi.mp4", poster: "videos/posters/nazi.jpeg" },
+    { nombre: "Reto del Huevo (nadie mas lo hizo)", video: "videos/huevo.mp4", poster: "videos/posters/huevo.jpeg" },
+    { nombre: "Pay to Lose", video: "videos/pay.mp4", poster: "videos/posters/pay.jpeg" },
+    { nombre: "Un cafecito Riquito Riquito", video: "videos/cafecito.mp4", poster: "videos/posters/cafecito.jpeg" }
+  ],
+
+
   
 
 };
