@@ -1297,7 +1297,10 @@ const CATEGORIAS_TODOS = [
   "Llorón del año",
   "Fiestero del año",
   "Picado del año",
-  "Princeso del año"
+  "Princeso del año",
+  "Revelación del año",
+  "Decepción del año",
+  "MVP del año"
   
 ];
 
@@ -1578,6 +1581,27 @@ const NOMINADOS_ESPECIALES = {
     { nombre: "Reto del Huevo (nadie mas lo hizo)", video: "videos/huevo.mp4", poster: "videos/posters/huevo.jpeg" },
     { nombre: "Pay to Lose", video: "videos/pay.mp4", poster: "videos/posters/pay.jpeg" },
     { nombre: "Un cafecito Riquito Riquito", video: "videos/cafecito.mp4", poster: "videos/posters/cafecito.jpeg" }
+  ],
+
+  "Peor momento del año": [
+    { nombre: "Coche Volcado en Canarias", foto: "fotos/p_momento/coche.jpeg" },
+    { nombre: "Coche Vuelta Canarias", foto: "fotos/p_momento/vuelta.jpeg" },
+    { nombre: "DJ Sistema estafador", foto: "fotos/p_momento/djsistema.png" },
+    { nombre: "Los Porros de Gonsi en la Cervezada", foto: "fotos/p_momento/porro.png" },
+    { nombre: "Pelea Zurra con Josemi", foto: "fotos/p_momento/josemi.png" },
+    { nombre: "Lucia y el cristal que se clavo en Pandorga", foto: "fotos/p_momento/herida.png" }
+  ],
+
+  "Mejor momento del año": [
+    { nombre: "Mundial España", foto: "fotos/m_momento/españa.jpeg" },
+    { nombre: "Conga Proyecto Y", foto: "fotos/m_momento/conga.jpeg" },
+    { nombre: "Casa de María Previa Carnaval", foto: "fotos/m_momento/abuelas.jpeg" },
+    { nombre: "Asier escondido en los arbustos pillando a Fer", foto: "fotos/m_momento/asier.png" },
+    { nombre: "Super cuota de Winamax", foto: "fotos/m_momento/winamax.jpg" },
+    { nombre: "Lanzamiento de Hielos en Canarias", foto: "fotos/m_momento/hielos.jpeg" },
+    { nombre: "Labrada destronando a Socios.Brand", foto: "fotos/m_momento/labrada.jpeg" },
+    { nombre: "Carrera Dunas", foto: "fotos/m_momento/dunas.jpeg" },
+    { nombre: "Karts Corral", foto: "fotos/m_momento/karts.jpeg" }
   ],
 
 
