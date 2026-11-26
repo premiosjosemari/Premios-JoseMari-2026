@@ -3155,12 +3155,16 @@ if (Object.keys(votosPorCat).length === 0) {
       fila.className =
         "resultado-final-opcion resultado-candidato";
 
-      if (indice === 0) {
+      const votosLider = ranking[0]?.[1] ?? 0;
+      const esLider = n === votosLider;
+
+      if (esLider) {
         fila.classList.add(
-          "resultado-final-lider",
-          "resultado-top4"
-        );
+        "resultado-final-lider",
+        "resultado-top4"
+      );
       }
+      
 
       const porcentaje =
         Math.round((n / totalVotosCategoria) * 100);
@@ -3169,13 +3173,16 @@ if (Object.keys(votosPorCat).length === 0) {
         <div class="resultado-final-linea">
 
           <span class="resultado-final-nombre">
-            ${indice === 0 ? "🏆 " : ""}
+            ${esLider ? "🏆 " : ""}
             ${opcion}
-            ${
-              indice === 0
-                ? '<span class="resultado-final-badge">LÍDER</span>'
-                : ''
-            }
+            ${esLider
+  ? `<span class="resultado-final-badge">
+      ${ranking.filter(([, votos]) => votos === votosLider).length > 1
+        ? "EMPATE LÍDER"
+        : "LÍDER"}
+     </span>`
+  : ''
+}
           </span>
 
           <strong>${n} voto${n !== 1 ? "s" : ""}</strong>
